@@ -1,0 +1,115 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #dbdcdc;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button {
+    padding: 0.75rem;
+    border: none;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 15px;
+  }
+
+  .loginPrompt {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .loginButton {
+    background: none;
+    border: none;
+    color: #0070f3;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: fixed;
+    background-color: #c7c8c7;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .navItem {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+  }
+  
+  .navItem:hover {
+    color: #005bb5;
+  }
+  
+  .button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
+  }
+  
